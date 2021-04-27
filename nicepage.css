@@ -33923,11 +33923,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
-@media (max-width: 767px) {
-  .u-footer .u-text-1 {
-    margin-bottom: 48px;
-  }
-}
+
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 107px;
