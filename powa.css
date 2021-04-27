@@ -332,7 +332,15 @@
   font-size: 1.875rem;
   animation-duration: 1000ms;
   width: 417px;
-  margin: 11px auto 60px;
+  margin: 11px auto 0;
+}
+
+.u-section-4 .u-btn-1 {
+  border-style: none;
+  font-size: 4.5rem;
+  animation-duration: 1000ms;
+  margin: -51px -44px 6px auto;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
@@ -340,8 +348,12 @@
     min-height: 625px;
   }
 
-  .u-section-4 .u-image-1 {
-    margin-bottom: 41px;
+  .u-section-4 .u-text-2 {
+    margin-top: 41px;
+  }
+
+  .u-section-4 .u-btn-1 {
+    margin-right: 0;
   }
 }
 
@@ -376,11 +388,11 @@
     width: 340px;
     height: 336px;
     animation-duration: 1000ms;
-    margin-bottom: 0;
   }
 
   .u-section-4 .u-text-2 {
     width: 340px;
     font-size: 1.25rem;
+    margin-top: 11px;
   }
 }

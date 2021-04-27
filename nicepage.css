@@ -33833,16 +33833,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header .u-sheet-1 {
-  min-height: 136px;
+  min-height: 142px;
 }
 
 .u-header .u-image-1 {
   width: 119px;
   height: 119px;
   animation-duration: 1000ms;
-  box-shadow: 0 -2px 8px 0 rgba(128,128,128,1);
-  background-image: url("images/amy-djakovic-morgan-power-commission.png");
-  background-position: 50% 50%;
+  background-image: url("images/gangstapowa.png");
+  background-position: 50% 11.5%;
+  box-shadow: 0 2px 11px 0 rgba(128,128,128,1);
   margin: 17px auto 0;
 }
 
@@ -33850,17 +33850,18 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: uppercase;
   animation-duration: 1000ms;
   font-family: "Courier New", monospace;
-  margin: -68px 435px 42px 656px;
+  font-size: 1.25rem;
+  margin: -76px 350px 50px 647px;
 }
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
     width: auto;
-    margin: -72px 359px 47px 556px;
+    margin: -72px 249px 47px 547px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
-    min-height: 113px;
+    min-height: 279px;
   }
 
   .u-header .u-image-1 {
@@ -33869,12 +33870,12 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-1 {
-    margin: -52px 255px 44px 446px;
+    margin: -56px 152px 60px 417px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 86px;
+    min-height: 93px;
   }
 
   .u-header .u-image-1 {
@@ -33883,12 +33884,12 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-1 {
-    margin: -45px 184px 24px 356px;
+    margin: -45px 82px 25px 313px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 76px;
+    min-height: 78px;
   }
 
   .u-header .u-image-1 {
@@ -33897,7 +33898,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-1 {
-    margin: -52px 84px 44px 256px;
+    margin: -34px 32px 27px 199px;
   }
 }
 .u-footer {
@@ -33905,36 +33906,30 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 121px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
   font-weight: 700;
-  margin: 49px auto;
+  margin: 49px auto 50px;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
+  .u-footer .u-text-1 {
+    margin-top: -69px;
+    margin-bottom: 0;
   }
 }
-@media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-}
+
+
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 36px;
+    min-height: 107px;
   }
 
   .u-footer .u-text-1 {
     width: 340px;
+    margin-top: -86px;
   }
 }
 
