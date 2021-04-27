@@ -33851,12 +33851,13 @@ a.u-link.u-text-hover-grey-90:hover {
   animation-duration: 1000ms;
   font-family: "Courier New", monospace;
   font-size: 1.25rem;
-  margin: -76px 242px 50px 647px;
+  margin: -76px 253px 50px 636px;
 }
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
     width: auto;
-    margin: -72px 249px 47px 547px;
+    margin-right: 209px;
+    margin-left: 530px;
   }
 }
 @media (max-width: 991px) {
@@ -33870,7 +33871,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-1 {
-    margin: -56px 152px 60px 417px;
+    margin: -55px 114px 60px 400px;
   }
 }
 @media (max-width: 767px) {
@@ -33884,7 +33885,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-1 {
-    margin: -45px 82px 25px 313px;
+    font-size: 1.125rem;
+    margin: -46px 51px 30px 302px;
   }
 }
 @media (max-width: 575px) {
@@ -33898,7 +33900,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-1 {
-    margin: -34px 32px 27px 199px;
+    font-size: 0.875rem;
+    margin: -32px -13px 29px 191px;
   }
 }
 .u-footer {
