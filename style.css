@@ -1,0 +1,396 @@
+body{
+    background-image: center top repeat-x;
+   background: #854c6e;
+   
+   background: center top repeat-x, -moz-linear-gradient(top, #854c6e 0%, #d27f73 100%);
+  
+   background:  center top repeat-x, -webkit-linear-gradient(top, #854c6e 0%,#d27f73 100%);
+
+   background: url("https://shishka.neocities.org/img/background-clouds.png") center top repeat-x, linear-gradient(to bottom, #854c6e 0%,#d27f73 100%);
+ 
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#854c6e', endColorstr='#d27f73',GradientType=0 );
+   
+   background-size: 530px auto, cover;
+   background-attachment:fixed;
+   color:#fff5e0;
+   margin:0;
+   line-height:1.7;
+  }
+  
+ .bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    transform: scale(1) translateZ(1px);
+    transition: all 1s ease;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(1px);
+    transform: perspective(999px) translateZ(1px);
+    z-index: -1;
+  }
+  p{
+    font-family: 'neon';
+    color: #e1f8ff;
+    display: flex;
+    justify-content: center;
+    position: inherit;
+    text-shadow: 2px 2px #8e2d62;
+    font-size: 16px;
+   
+  }
+
+    @font-face {
+    font-family: 'Router-159 Heavy Italic';
+    src: url('./fonts/route-159.heavy-italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'neon';
+    src: url('./fonts/Neon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'itc';
+    src: url('./fonts/route-159.heavy-italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /*-------------------------PROFILE ELEMENTS------------------------- */
+  .container {  
+    background-color: #fefffd00;
+    height: 600px;
+    margin: 150px auto;
+    overflow: visible;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   display: flexbox;
+  }
+
+  .profile-border {
+    background-image: linear-gradient(135deg,#c82955,#783277);
+    height: 160px;
+    width: 490px;
+    margin-left: 300px;
+    position: absolute;
+    overflow: hidden;
+    clip-path: polygon(93% 0%, 100% 17%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .profile-border:hover{
+    transform: scale(1.02);
+  }
+  .profile {
+    background-color:#56373a;
+    height: 152px;
+    width: 482px;
+    position: relative; 
+    top: 4px; 
+    left: 4px; 
+    overflow: hidden;
+    clip-path: polygon(93% 0%, 100% 17%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+   
+  }
+ 
+  .sidebar-border {  
+    background-image: linear-gradient(135deg,#c82955,#783277);
+    height: 500px;
+    left: 40px;
+    position: absolute;
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .sidebar-border:hover{
+    transform: scale(1.02);
+  }
+
+  .sidebar {  
+    background-color: #56373a;
+    height: 492px;
+    width: 242px;
+    top: 4px; 
+    left: 4px; 
+    position: relative;
+    overflow: hidden;
+  }
+
+  .app-border {
+    /* background-color: #ff008c; */
+    background-image: linear-gradient(135deg,#c82955,#783277);
+    height: 330px;
+    width: 490px;
+    margin-left: 300px;
+    margin-top: 170px;
+    position: absolute;
+    overflow: visible;  
+    transition: transform 0.3s ease-in-out;
+  }
+  .app-border:hover{
+    transform: scale(1.02);
+  }
+
+  .apps {
+    background-color:#56373a; 
+    height: 322px;
+    width: 482px;
+    position: relative; 
+    top: 4px; 
+    left: 4px; 
+    overflow: hidden;
+  }
+ 
+
+  
+
+  .welcometitle{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #e1f8ff;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px #8e2d62;
+    font-size: 35px;
+    animation: textShadow 1.6s infinite;
+  }
+  
+  
+  .sidetitle{
+   font-family: "Router-159 Heavy Italic";
+   display: flex;
+   justify-content: center;
+    color: #e1f8ff;
+    text-shadow: 3px 3px #8e2d62;
+    font-size: 33px;
+    animation: textShadow 1.6s infinite;
+  }
+
+  .appstitle{
+    font-family: 'neon';
+    color: #e1f8ff;
+    display: flex;
+    justify-content: center;
+    position: inherit;
+    text-shadow: 3px 3px #8e2d62;
+    font-size: 33px;
+    animation: textShadow 1.6s infinite;
+  }
+  .appstitle:hover{
+    font-family: 'neon';
+    color: #bd317e;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px #fdfbfc00;
+    transition: 0.4;
+    font-size: 33px;
+  }
+
+  .app-body {
+    position: sticky;
+    height: 370px;
+    margin-top: -30px;
+    padding: 10px;
+  }
+
+
+  .terminal-body {
+    position: sticky;
+    height: 370px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  .terminal-prompt {
+    display: inline-block;
+    margin-right: px;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 3px 3px #8e2d62;
+    font-family: 'Share Tech Mono';
+    font-size: 18px;
+  }
+  .terminal-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-shadow: 3px 3px #8e2d62;
+    font-family: 'Share Tech Mono';
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    /*width: calc(100% - 20px); /* subtract the width of the prompt and margin from the input width */
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  spam { 
+    font-family: 'Share Tech Mono';
+     text-shadow: 3px 3px #8e2d62;
+      color: white;
+    }
+
+  .profile-image {
+    top: 30%;
+    left: 40%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .foldericon::before {
+    color: white;
+    text-shadow:  3px 3px #8e2d62;
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Free";
+    content: "\f07b"; /* Unicode value for the folder icon */
+    margin-right: 10px; /* Add some space between the icon and the text */
+  }
+  
+@keyframes flicker {
+  0% {
+    opacity: 0.27861;
+  }
+  5% {
+    opacity: 0.34769;
+  }
+  10% {
+    opacity: 0.23604;
+  }
+  15% {
+    opacity: 0.90626;
+  }
+  20% {
+    opacity: 0.18128;
+  }
+  25% {
+    opacity: 0.83891;
+  }
+  30% {
+    opacity: 0.65583;
+  }
+  35% {
+    opacity: 0.67807;
+  }
+  40% {
+    opacity: 0.26559;
+  }
+  45% {
+    opacity: 0.84693;
+  }
+  50% {
+    opacity: 0.96019;
+  }
+  55% {
+    opacity: 0.08594;
+  }
+  60% {
+    opacity: 0.20313;
+  }
+  65% {
+    opacity: 0.71988;
+  }
+  70% {
+    opacity: 0.53455;
+  }
+  75% {
+    opacity: 0.37288;
+  }
+  80% {
+    opacity: 0.71428;
+  }
+  85% {
+    opacity: 0.70419;
+  }
+  90% {
+    opacity: 0.7003;
+  }
+  95% {
+    opacity: 0.36108;
+  }
+  100% {
+    opacity: 0.24387;
+  }
+}
+@keyframes textShadow {
+  0% {
+    text-shadow: 0.4389924193300864px 0 1px #783277, -0.4389924193300864px 0 1px #c82955, 0 0 3px;
+  }
+  5% {
+    text-shadow: 2.7928974010788217px 0 1px #783277, -2.7928974010788217px 0 1px #c82955, 0 0 3px;
+  }
+  10% {
+    text-shadow: 0.02956275843481219px 0 1px #783277, -0.02956275843481219px 0 1px #c82955, 0 0 3px;
+  }
+  15% {
+    text-shadow: 0.40218538552878136px 0 1px #783277, -0.40218538552878136px 0 1px #c82955, 0 0 3px;
+  }
+  20% {
+    text-shadow: 3.4794037899852017px 0 1px #783277, -3.4794037899852017px 0 1px #c82955, 0 0 3px;
+  }
+  25% {
+    text-shadow: 1.6125630401149584px 0 1px #783277, -1.6125630401149584px 0 1px #c82955, 0 0 3px;
+  }
+  30% {
+    text-shadow: 0.7015590085143956px 0 1px #783277, -0.7015590085143956px 0 1px #c82955, 0 0 3px;
+  }
+  35% {
+    text-shadow: 3.896914047650351px 0 1px #783277, -3.896914047650351px 0 1px #c82955, 0 0 3px;
+  }
+  40% {
+    text-shadow: 3.870905614848819px 0 1px #783277, -3.870905614848819px 0 1px #c82955, 0 0 3px;
+  }
+  45% {
+    text-shadow: 2.231056963361899px 0 1px #783277, -2.231056963361899px 0 1px #c82955, 0 0 3px;
+  }
+  50% {
+    text-shadow: 0.08084290417898504px 0 1px #783277, -0.08084290417898504px 0 1px #c82955, 0 0 3px;
+  }
+  55% {
+    text-shadow: 2.3758461067427543px 0 1px #783277, -2.3758461067427543px 0 1px #c82955, 0 0 3px;
+  }
+  60% {
+    text-shadow: 2.202193051050636px 0 1px #783277, -2.202193051050636px 0 1px #c82955, 0 0 3px;
+  }
+  65% {
+    text-shadow: 2.8638780614874975px 0 1px #783277, -2.8638780614874975px 0 1px #c82955, 0 0 3px;
+  }
+  70% {
+    text-shadow: 0.48874025155497314px 0 1px #783277, -0.48874025155497314px 0 1px #c82955, 0 0 3px;
+  }
+  75% {
+    text-shadow: 1.8948491305757957px 0 1px #783277, -1.8948491305757957px 0 1px #c82955, 0 0 3px;
+  }
+  80% {
+    text-shadow: 0.0833037308038857px 0 1px #783277, -0.0833037308038857px 0 1px #c82955, 0 0 3px;
+  }
+  85% {
+    text-shadow: 0.09769827255241735px 0 1px #783277, -0.09769827255241735px 0 1px #c82955, 0 0 3px;
+  }
+  90% {
+    text-shadow: 3.443339761481782px 0 1px #783277, -3.443339761481782px 0 1px #c82955, 0 0 3px;
+  }
+  95% {
+    text-shadow: 2.1841838852799786px 0 1px #783277, -2.1841838852799786px 0 1px #c82955, 0 0 3px;
+  }
+  100% {
+    text-shadow: 2.6208764473832513px 0 1px #783277, -2.6208764473832513px 0 1px #c82955, 0 0 3px;
+  }
+}
+
+@import './test.scss';
