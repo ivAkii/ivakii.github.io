@@ -168,11 +168,39 @@ p{
   font-size: 50px;
   position: absolute;
   white-space: nowrap;
+  transition: transform 0.3s ease-in-out;
   padding-left: 15%;
   top: -110px;
   animation: textShadow 1.6s infinite;
 }
+.welcometitle:hover{
+  transform: scale(1.1);
+  z-index: 9;
+}
 
+.flower{
+  position: absolute;
+  top: 50px;
+  image-rendering: crisp-edges;
+  filter: hue-rotate(333deg);
+  left: 26%;
+  z-index: 8;
+  width: auto;
+  height: 100px;
+  animation: sway 2s linear infinite;
+}
+
+.flower2{
+  position: absolute;
+  top: 50px;
+  image-rendering: crisp-edges;
+  filter: hue-rotate(333deg);
+  left: 67%;
+  z-index: 8;
+  width: auto;
+  height: 100px;
+  animation: sway 2s linear infinite;
+}
 .sidetitle{
  font-family: "Router-159 Heavy Italic";
  display: flex;
@@ -200,29 +228,7 @@ p{
   margin-top: -30px;
   padding: 10px;
 }
-.flower{
-  position: absolute;
-  top: 50px;
-  image-rendering: crisp-edges;
-  filter: hue-rotate(333deg);
-  left: 26%;
-  z-index: 9999;
-  width: auto;
-  height: 100px;
-  animation: sway 2s linear infinite;
-}
 
-.flower2{
-  position: absolute;
-  top: 50px;
-  image-rendering: crisp-edges;
-  filter: hue-rotate(333deg);
-  left: 67%;
-  z-index: 9999;
-  width: auto;
-  height: 100px;
-  animation: sway 2s linear infinite;
-}
 h2 { 
   font-family: 'Share Tech Mono';
    text-shadow: 3px 3px #8e2d62;
