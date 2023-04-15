@@ -27,3 +27,8 @@ function generate(element) {
       }, 30)
       }
 }
+
+function copyText(content , text) {
+  navigator.clipboard.writeText(text);
+  alert(content + " copied!");
+}

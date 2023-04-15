@@ -86,7 +86,7 @@ p{
  display: flexbox;
 }
 
-.profile-border {
+.social-border {
   background-image: linear-gradient(135deg,#c82955,#783277);
   height: 160px;
   width: 490px;
@@ -96,10 +96,10 @@ p{
   clip-path: polygon(93% 0%, 100% 17%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
   transition: transform 0.3s ease-in-out;
 }
-.profile-border:hover{
+.social-border:hover{
   transform: scale(1.02);
 }
-.profile {
+.social {
   background-color:#56373a;
   height: 152px;
   width: 482px;
@@ -201,6 +201,7 @@ p{
   height: 100px;
   animation: sway 2s linear infinite;
 }
+
 .sidetitle{
  font-family: "Router-159 Heavy Italic";
  display: flex;
@@ -229,6 +230,7 @@ p{
   padding: 10px;
 }
 
+
 h2 { 
   font-family: 'Share Tech Mono';
    text-shadow: 3px 3px #8e2d62;
@@ -251,6 +253,16 @@ h2 {
   }
 
 
+  .icon {
+    position: relative;
+    top: 42px;
+    left: 23%;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: 3px 3px #8e2d62;
+  }
+  
   .underline {
     text-decoration: none;
     display: inline-block;
@@ -506,4 +518,3 @@ h2 {
     background-position: 0 50%;
   }
 }
-
