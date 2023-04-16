@@ -19,6 +19,7 @@ body{
   place-items: center;
  line-height:1.7;
  height: 100vh;
+ width: 100%;
 }
 .container {  
   background-color: #fefffd00;
