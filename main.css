@@ -475,6 +475,7 @@ h2 {
 }
 .scanlines:before {
   width: 100%;
+  top:-100px;
   height: 2px;
   z-index: 9;
   background: rgba(0, 0, 0, 0.3);
@@ -494,7 +495,7 @@ h2 {
 
 @keyframes scanline {
   0% {
-    transform: translate3d(0, 20000 0%, 0);
+    transform: translate3d(0, 200000%, 0);
   }
 }
 @keyframes scanlines {
