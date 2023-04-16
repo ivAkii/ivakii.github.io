@@ -15,30 +15,23 @@ body{
  background-attachment:fixed;
  color:#fff5e0;
  margin:0;
+ display: grid;
+  place-items: center;
  line-height:1.7;
+ height: 100vh;
+}
+.container {  
+  background-color: #fefffd00;
+  height: 600px;
+ position: relative;
+  overflow: visible;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.bg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  padding: 0%;
-  -webkit-filter: blur(0);
-  filter: blur(0);
-  transform: scale(1) translateZ(1px);
-  transition: all 1s ease;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform: translateZ(1px);
-  transform: perspective(999px) translateZ(1px);
-  z-index: -1;
-}
+
 p{
   font-family: 'neon';
   color: #e1f8ff;
@@ -74,22 +67,13 @@ p{
 
 }
 /*-------------------------PROFILE ELEMENTS------------------------- */
-.container {  
-  background-color: #fefffd00;
-  height: 600px;
-  margin: 150px auto;
-  overflow: visible;
-  width: 800px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
- display: flexbox;
-}
+
 
 .social-border {
   background-image: linear-gradient(135deg,#c82955,#783277);
   height: 160px;
   width: 490px;
+  top: 50px;
   margin-left: 300px;
   position: absolute;
   overflow: hidden;
@@ -166,11 +150,10 @@ p{
   font-family: 'Share Tech Mono';
   color: #ffffff;
   font-size: 50px;
-  position: absolute;
+  position: relative;
+  top:-280px;
   white-space: nowrap;
   transition: transform 0.3s ease-in-out;
-  padding-left: 15%;
-  top: -110px;
   animation: textShadow 1.6s infinite;
 }
 .welcometitle:hover{
@@ -180,10 +163,10 @@ p{
 
 .flower{
   position: absolute;
-  top: 50px;
+  top: -50px;
   image-rendering: crisp-edges;
   filter: hue-rotate(333deg);
-  left: 26%;
+  left: -15px;
   z-index: 8;
   width: auto;
   height: 100px;
@@ -192,10 +175,10 @@ p{
 
 .flower2{
   position: absolute;
-  top: 50px;
+  right: -15px;
+  top:-50px;
   image-rendering: crisp-edges;
   filter: hue-rotate(333deg);
-  left: 67%;
   z-index: 8;
   width: auto;
   height: 100px;
@@ -259,7 +242,7 @@ h2 {
     left: 23%;
     margin-right: 20px;
     color: #fff;
-    font-size: 4rem;
+    font-size: 4em;
     text-shadow: 3px 3px #8e2d62;
   }
   
@@ -284,22 +267,12 @@ h2 {
     width: 100%;
   }
 
-.profile-image {
-  top: 30%;
-  left: 40%;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  position: absolute;
-  border: 2px solid #fff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
+
 
 .foldericon::before {
   color: white;
   text-shadow:  3px 3px #8e2d62;
-  font-size: 3rem;
+  font-size: 3em;
   font-family: "Font Awesome 6 Free";
   content: "\f07b"; /* Unicode value for the folder icon */
   margin-right: 10px; /* Add some space between the icon and the text */
@@ -311,7 +284,17 @@ h2 {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
-
+.profile-image {
+  top: 30%;
+  left: 40%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  position: absolute;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
