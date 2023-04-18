@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ivAKii | Portfolio</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"> </head>
     <script src="https://kit.fontawesome.com/d7d463163f.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-    <body class="scanlines">
+  
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <ul class="scanlines"></ul>
+    <body>
 
-      <!-- <img src="./img/retro.jpg" class="bg"> -->
-    <div class="container ">
-      <div class="title">
-      <img src="./img/lily.png" class="flower shake">
-      <img src="./img/lily.png" class="flower2 shake">
-      <h1 class="welcometitle">Welcome・To・My・Attic</h1>
-    </div>
-              <div class="social-border"> 
-          <div class="social">
-            <div class="profile-image-container">
-              <a  href="mailto:iv.akii.ouo@gmail.com?subject=[From Attic] -Your Mail Subject Here-" target="_blank">
-                <i class="icon zoom fa-solid fa-envelope"></i>
-              </a>
-              <a href="#" onclick="copyText(`Discord Tag` ,`Netizen AKi#1275`)">
-                <i class="icon zoom fa-brands fa-discord"></i>
-              </a>
-              <a href="https://github.com/ivAkii" target="_blank">
-                <i class="icon zoom fa-brands fa-github"></i>
-              </a>
-              </div>
-            </div>  
+
+       
+      <div class="container">
+      <div class="box-container">
+
+        <div class="title-con"> 
+          <img src="./img/lily.png" class="flower shake">
+          
+          <h1 class="welcometitle">Welcome・To・My・Attic</h1>
+
+          <img src="./img/lily.png" class="flower2 shake">
+          <div class="title">
         </div>
 
-        <div class="sidebar-border"> 
+      </div>
+
+      <div class="sidebar-con zoom"> 
           <div class="sidebar">
-            <h1 class="sidetitle zoom">SOMETHING</h1>
-              <p>I have Ph.D in Bullshitting</p>
-          </div> 
+            <h1 class="zoomIcon">About</h1>
+            <p>Just a person on the internet.</p>
+            <img class="kurisu" src="./img/kurisunobg.gif">
         </div>
 
-        <div class="app-border">
-          <div class="apps">
-            <span class="appstitle zoom">MY PROJECTS</span>
-              <div class="app-body">
+      </div>
+
+      <div class="social-con zoom"> 
+        <div class="social">
+          <a  href="mailto:iv.akii.ouo@gmail.com?subject=[From Attic] -Your Mail Subject Here-" target="_blank">
+            <i class="icon zoomIcon fa-solid fa-envelope"></i>
+          </a>
+          <a href="#" onclick="copyText(`Discord Tag` ,`Netizen AKi#1275`)">
+            <i class="icon zoomIcon fa-brands fa-discord"></i>
+          </a>
+          <a href="https://github.com/ivAkii" target="_blank">
+            <i class="icon zoomIcon fa-brands fa-github"></i>
+          </a>
+        </div>
+    </div>
+
+    <div class="project-con zoom"> 
+      <div class="project">
+        <h1 class="zoomIcon">MY PROJECTS</h1>
+          
                <a href="https://kpoppingapi.netlify.app" target="_blank">
                <h2 class="underline">Kpopping API - Custom API for kpopping.com</h2>
               </a> 
               <a href="https://discord.com/api/oauth2/authorize?client_id=1091271398015647866&permissions=9761387310176&scope=bot%20applications.commands" target="_blank">
                 <h2 class="underline">NoraeBot - Kpop Idol Image Bot</h2>
               </a> 
-              </div>
-        </div> 
+         
       </div>
+  </div>
+
+  </div>
    </div>
-    <script src="script.js"></script>
+
   </body>
 </html>
